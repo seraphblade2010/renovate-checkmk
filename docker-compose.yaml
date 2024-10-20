@@ -1,0 +1,6 @@
+name: checkmk
+services:
+  checkmk:
+    container_name: checkmk
+    image: checkmk/check-mk-cloud:2.3.0p1
+    restart: unless-stopped
