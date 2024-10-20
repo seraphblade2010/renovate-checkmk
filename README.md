@@ -15,9 +15,9 @@ When renovate-bot checks against the checkmk image, it generates a new PR with v
 ## Explanation
 
 CheckMK uses the following schema for versioning:
-2 (first number) -> Major
-3 (second number) -> Minor
-p* (number behind p) -> Patch
+- 2 (first number) -> Major
+- 3 (second number) -> Minor
+- p* (number behind p) -> Patch
 
 The 0 in 2.3.0 seems to be constant as in: every major checkmk version has the 0 as the third number and it never changes.
 
